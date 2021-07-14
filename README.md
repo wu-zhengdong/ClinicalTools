@@ -1,6 +1,6 @@
 # Research on Interpretability of Clinical Medicine Based on Machine Learning Predictive Model (基于机器学习预测模型的临床医学可解释性研究)
 
-Please see the "Clinical Research Based on Machine Learning (WorkFlow).ipynb".
+Please see the "Tutorial (WorkFlow).ipynb".
 
 ClinicalTools Moudles:
 - preprocessing
