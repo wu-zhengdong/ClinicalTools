@@ -1,4 +1,4 @@
-# Clinically interpretable research based on machine learning. (基于机器学习的临床可解释研究)
+# Research on Interpretability of Clinical Medicine Based on Machine Learning Predictive Model (基于机器学习预测模型的临床医学可解释性研究)
 
 - preprocessing
   - description.py
