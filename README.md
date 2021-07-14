@@ -1,5 +1,4 @@
-# Clinically interpretable research based on machine learning.
-# (基于机器学习的临床可解释研究)
+# Clinically interpretable research based on machine learning. (基于机器学习的临床可解释研究)
 
 - preprocessing
   - description.py

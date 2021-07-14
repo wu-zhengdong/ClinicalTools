@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a9f150-5ed6-480c-b487-533fd088de9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ClinicalTools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClinicalTools/metrics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClinicalTools/metrics/plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClinicalTools/models/FeatureSelection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClinicalTools/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClinicalTools/preprocessing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClinicalTools/preprocessing/standardzation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClinicalTools/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/FastLoad.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/utils/load.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/classification/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/classification/colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/utils/colors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/classification/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/metrics/evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/classification/imputation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/preprocessing/imputation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/classification/models_cv.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/models/GridSearchCV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/classification/models_ga.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/statistic/Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/preprocessing/description.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/statistic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/SHAP/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/statistic/datahypothesis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/ClinicalTools/metrics/evaluate.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1880">
-              <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+              <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -96,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/ClinicalTools/metrics/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="1" column="57" lean-forward="true" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+              <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -463,17 +443,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/preprocessing/FastLoad.py" />
     <entry file="file://$PROJECT_DIR$/classification/utils.py" />
@@ -636,7 +605,7 @@
     <entry file="file://$PROJECT_DIR$/ClinicalTools/metrics/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1880">
-          <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -646,7 +615,7 @@
     <entry file="file://$PROJECT_DIR$/ClinicalTools/metrics/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" column="57" lean-forward="true" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
         </state>
       </provider>
     </entry>
