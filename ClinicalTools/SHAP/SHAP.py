@@ -10,11 +10,12 @@ plt.rcParams["font.family"] = "Times New Roman"
 plt.rcParams['mathtext.default'] = 'regular'
 mpl.rcParams['axes.unicode_minus'] = False
 
+
 class SHAP:
     '''
-    # 1. 树模型用 TreeExplainer
-    # 2. 其他模型用 KernelExplainer
-    # 3. 对最佳的模型进行SHAP就行
+    1. 树模型用 TreeExplainer
+    2. 其他模型用 KernelExplainer
+    3. 对最佳的模型进行SHAP就行
     '''
     def __init__(self, model, x_raw, x, y_test, y_pred, explainer='kernel'):
         self.x_test_raw = x_raw
@@ -54,9 +55,10 @@ class SHAP:
         if not os.path.exists(save_path):
             os.makedirs(save_path)
         # 可以直接循环跑，每个变量的结果
-        for n in self.x_test_raw.columns:
+        for n in tqdm(self.x_test_raw.columns):
             shap.dependence_plot(n, self.shap_values[1], self.x_test_raw, interaction_index=None, show=False)
             plt.savefig(os.path.join(save_path, '{}.png'.format(n.split('(')[0])), dpi=300, bbox_inches='tight')
+            plt.close()
 
     def force_plot(self, save_path='./results/shap/force/html'):
         if not os.path.exists(save_path):
@@ -109,7 +111,7 @@ class SHAP:
             os.makedirs(classified_decision_plot_path)
             os.makedirs(misclassified_decision_plot_path)
 
-        for i in range(len(self.classified)):
+        for i in tqdm(range(len(self.classified))):
             fig, ax = plt.subplots(figsize=(10, 10))
             ax.set_title("Patient {} Decision Plot".format(self.classified[i]), size=25, fontdict={'weight': 'bold'})
             #     ax.set_yticklabels(size = 23,fontdict = {'family':'Times New Roman'})
@@ -127,8 +129,9 @@ class SHAP:
                                      highlight=0)
             plt.savefig(os.path.join(classified_decision_plot_path, 'patient_{}.png'.format(self.classified[i])), dpi=300,
                         bbox_inches='tight')
+            plt.close()
 
-        for i in range(len(self.misclassified)):
+        for i in tqdm(range(len(self.misclassified))):
             fig, ax = plt.subplots(figsize=(10, 10))
             ax.set_title("Patient {} Decision Plot".format(self.misclassified[i]), size=25, fontdict={'weight': 'bold'})
             ax.yaxis.set_tick_params(labelsize=20)
@@ -145,3 +148,4 @@ class SHAP:
                                      highlight=0)
             plt.savefig(os.path.join(misclassified_decision_plot_path, 'patient_{}.png'.format(self.misclassified[i])),
                         dpi=300, bbox_inches='tight')
+            plt.close()

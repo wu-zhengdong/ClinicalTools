@@ -17,18 +17,20 @@ class StandardScaler:
         self.standard_df = pd.concat([mean_df, std_df], axis=0)
 
     def transform(self, x):
+        x_transform = x.copy()
         assert self.standard_df is not None, 'Pls fit before transform.'
         for n in self.continue_columns:
             u = self.standard_df.loc['mean', n]
             s = self.standard_df.loc['std', n]
-            x[n] = (x[n] - u) / s
+            x_transform[n] = (x_transform[n] - u) / s
 
-        return x
+        return x_transform
 
     def inverse_transform(self, x):
+        x_transform = x.copy()
         assert self.standard_df is not None, 'Pls fit before transform.'
         for n in self.continue_columns:
             u = self.standard_df.loc['mean', n]
             s = self.standard_df.loc['std', n]
-            x[n] = x[n] * s + u
-        return x
+            x_transform[n] = x_transform[n] * s + u
+        return x_transform
