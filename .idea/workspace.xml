@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a9f150-5ed6-480c-b487-533fd088de9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example_pics/patient_65.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutorial (WorkFlow).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorial (WorkFlow).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutorial (WorkFlow).ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,8 +116,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="450">
-                <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+              <first_editor relative-caret-position="500">
+                <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -636,8 +634,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="450">
-            <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+          <first_editor relative-caret-position="500">
+            <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>

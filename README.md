@@ -7,7 +7,7 @@ cover the entire clinical medical research process, including hypothesis testing
 filling, feature selection, machine learning grid search, ROC, calibration curve, confusion matrix, SHAP 
 interpretability, etc. Papers in those fields can be found in the **Reference**.
  **Research Display** displays a portion of the results. You can find a detailed tutorial on 
- **Tutorial (Workflow).ipynb**.
+ **Tutorial.ipynb**.
 
 
 # Install and Tutorial
@@ -23,7 +23,7 @@ pip install requirements.txt
 
 3. Considering your reading experience, please install the catalog before reading.(https://zhuanlan.zhihu.com/p/24029578)
 
-4. **Tutorial: Please see the "Tutorial (WorkFlow).ipynb".**
+4. **Tutorial: Please see the "Tutorial.ipynb".**
 
 # Reference
 
