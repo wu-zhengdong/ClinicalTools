@@ -36,29 +36,29 @@ The experimental results of the following papers can be implemented using Clinic
 # Results Display
 
 ## ROC
-![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/roc.png)
+![summary_dot](./Example_pics/roc.png)
 
 ## Confusion matrix
 
-![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Confusion matrix, without normalization.png)
+![summary_dot](./Example_pics/Confusion_matrix.png)
 
 ## SHAP 
 
 ### summary plot
-![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/summary_dot.png)
-![summary_bar](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/summary_bar.png)
+![summary_dot](./Example_pics/summary_dot.png)
+![summary_bar](./Example_pics/summary_bar.png)
 
 
 ### dependence plot
 
-![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Age.png)
-![summary_bar](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Admission.png)
+![summary_dot](./Example_pics/Age.png)
+![summary_bar](./Example_pics/Admission.png)
 
 ### force plot
 
-![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/force_plot_patients_0.png)
-![summary_bar](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/force_plot_patients_2.png)
+![summary_dot](./Example_pics/force_plot_patients_0.png)
+![summary_bar](./Example_pics/force_plot_patients_2.png)
 
 ### decision plot
 
-![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/patient_65.png)
+![summary_dot](./Example_pics/patient_65.png)
