@@ -122,6 +122,7 @@ class SHAP:
             fig = shap.decision_plot(self.explainer.expected_value[1],
                                      self.shap_values[1][self.classified[i]],
                                      self.x_test_raw.iloc[self.classified[i]],
+                                     feature_order=[i for i in range(self.x_test.shape[1])],
                                      # feature_order=[0, 11, 12, 3, 5, 2, 4, 13, 7, 6, 10, 8, 9, 1],  # 排序
                                      #                              return_objects=True,
                                      show=False,
@@ -141,6 +142,7 @@ class SHAP:
             fig = shap.decision_plot(self.explainer.expected_value[1],
                                      self.shap_values[1][self.misclassified[i]],
                                      self.x_test_raw.iloc[self.misclassified[i]],
+                                     feature_order=[i for i in range(self.x_test.shape[1])],
                                      # feature_order=[0, 11, 12, 3, 5, 2, 4, 13, 7, 6, 10, 8, 9, 1],
                                      #                              return_objects=True,
                                      show=False,

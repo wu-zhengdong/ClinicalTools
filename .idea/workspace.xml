@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a9f150-5ed6-480c-b487-533fd088de9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_pics/patient_65.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutorial (WorkFlow).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorial (WorkFlow).ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClinicalTools/metrics/plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="63" column="51" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClinicalTools/preprocessing/imputation.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,11 +63,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="940">
+              <caret line="128" column="47" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/opt/anaconda3/envs/py36/lib/python3.6/site-packages/shap/plots/_decision.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="269" column="17" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -118,8 +118,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="655">
-                <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+              <first_editor relative-caret-position="450">
+                <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -220,8 +220,8 @@
         <option value="$PROJECT_DIR$/ClinicalTools/preprocessing/standardzation.py" />
         <option value="$PROJECT_DIR$/ClinicalTools/preprocessing/imputation.py" />
         <option value="$PROJECT_DIR$/ClinicalTools/preprocessing/__init__.py" />
-        <option value="$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py" />
         <option value="$PROJECT_DIR$/ClinicalTools/setup.py" />
+        <option value="$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -404,7 +404,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27546716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27546716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -582,16 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClinicalTools/models/FeatureSelection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -619,11 +609,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/opt/anaconda3/envs/py36/lib/python3.6/site-packages/shap/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/opt/anaconda3/envs/py36/lib/python3.6/site-packages/shap/plots/_decision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="269" column="17" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClinicalTools/SHAP/SHAP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="128" column="47" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="655">
-            <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+          <first_editor relative-caret-position="450">
+            <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>

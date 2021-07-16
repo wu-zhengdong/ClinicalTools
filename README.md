@@ -84,4 +84,4 @@ The experimental results of the following papers can be implemented using Clinic
 
 ### decision plot
 
-![decision_plot_65](./Example_pics/patient_65.png)
+![decision_plot_65](./Example_pics/patient_39.png)
