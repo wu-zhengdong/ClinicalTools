@@ -25,7 +25,7 @@ pip install requirements.txt
 
 4. **Tutorial: Please see the "Tutorial (WorkFlow).ipynb".**
 
-# Reference (#Reference)
+# Reference
 
 The experimental results of the following papers can be implemented using ClinicalTools.
 
