@@ -1,6 +1,6 @@
 # Research on Interpretability of Clinical Medicine Based on Machine Learning Predictive Model (基于机器学习预测模型的临床医学可解释性研究)
 
-Please see the "Tutorial (WorkFlow).ipynb".
+***Please see the "Tutorial (WorkFlow).ipynb".***
 
 # Reference
 
@@ -36,43 +36,29 @@ The experimental results of the following papers can be implemented using Clinic
 # Results Display
 
 ## ROC
-<p align="center">
-<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/roc.png" width="1000"/>
-</p>
+![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/roc.png)
 
 ## Confusion matrix
 
-<p align="center">
-<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Confusion matrix, without normalization.png" width="1000"/>
-</p>
-
+![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Confusion matrix, without normalization.png)
 
 ## SHAP 
 
 ### summary plot
-
-<p align="center">
-<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/summary_dot.png" width="1000"/>
-<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/summary_bar.png" width="1000"/>
-</p>
+![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/summary_dot.png)
+![summary_bar](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/summary_bar.png)
 
 
 ### dependence plot
 
-<p align="center">
-<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Age.png" width="1000"/>
-<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Admission Fbrinogen.png" width="1000"/>
-</p>
+![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Age.png)
+![summary_bar](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Admission.png)
 
 ### force plot
 
-<p align="center">
-<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/force_plot_patients_0.png" width="1000"/>
-<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/force_plot_patients_2.png" width="1000"/>
-</p>
+![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/force_plot_patients_0.png)
+![summary_bar](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/force_plot_patients_2.png)
 
 ### decision plot
 
-<p align="center">
-<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/patient_65.png" width="1000"/>
-</p>
+![summary_dot](https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/patient_65.png)
