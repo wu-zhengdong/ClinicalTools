@@ -7,8 +7,11 @@ Please see the "Tutorial (WorkFlow).ipynb".
 The experimental results of the following papers can be implemented using ClinicalTools.
 
 [1] Tseng, P. Y., Chen, Y. T., Wang, C. H., Chiu, K. M., Peng, Y. S., Hsu, S. P., ... & Lee, O. K. S. (2020). Prediction of the development of acute kidney injury following cardiac surgery by machine learning. Critical Care, 24(1), 1-13.
+
 [2] Chen, C., Yang, D., Gao, S., Zhang, Y., Chen, L., Wang, B., ... & Zhou, S. (2021). Development and performance assessment of novel machine learning models to predict pneumonia after liver transplantation. Respiratory research, 22(1), 1-12.
+
 [3] Penny-Dimri, J. C., Bergmeir, C., Reid, C. M., Williams-Spence, J., Cochrane, A. D., & Smith, J. A. (2020, September). Machine learning algorithms for predicting and risk profiling of cardiac surgery-associated acute kidney injury. In Seminars in Thoracic and Cardiovascular Surgery. WB Saunders.
+
 [4] Gong, K., Lee, H. K., Yu, K., Xie, X., & Li, J. (2021). A prediction and interpretation framework of acute kidney injury in critical care. Journal of Biomedical Informatics, 113, 103653.
 
 # ClinicalTools Moudles
@@ -32,6 +35,44 @@ The experimental results of the following papers can be implemented using Clinic
 
 # Results Display
 
-![roc.png](./Exapmele_pics/roc.png)
-![Confusion matrix, without normalization.png](./Example_pics/Confusion matrix, without normalization.png)
+## ROC
+<p align="center">
+<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/roc.png" width="1000"/>
+</p>
 
+## Confusion matrix
+
+<p align="center">
+<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Confusion matrix, without normalization.png" width="1000"/>
+</p>
+
+
+## SHAP 
+
+### summary plot
+
+<p align="center">
+<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/summary_dot.png" width="1000"/>
+<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/summary_bar.png" width="1000"/>
+</p>
+
+
+### dependence plot
+
+<p align="center">
+<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Age.png" width="1000"/>
+<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/Admission Fbrinogen.png" width="1000"/>
+</p>
+
+### force plot
+
+<p align="center">
+<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/force_plot_patients_0.png" width="1000"/>
+<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/force_plot_patients_2.png" width="1000"/>
+</p>
+
+### decision plot
+
+<p align="center">
+<img src="https://github.com/ugggddd/ClinicalTools/tree/master/Example_pics/patient_65.png" width="1000"/>
+</p>
