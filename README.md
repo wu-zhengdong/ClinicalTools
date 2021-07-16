@@ -5,8 +5,8 @@
 Here are clinical medical machine learning interpretability research tools from ClinicalTools which are designed to 
 cover the entire clinical medical research process, including hypothesis testing, standardization, missing value 
 filling, feature selection, machine learning grid search, ROC, calibration curve, confusion matrix, SHAP 
-interpretability, etc. References in those fields can be found in the papers in the **Reference** section.
- **"Research Display"** displays a portion of the results. You can find a detailed tutorial on 
+interpretability, etc. Papers in those fields can be found in the **Reference**.
+ **Research Display** displays a portion of the results. You can find a detailed tutorial on 
  **Tutorial (Workflow).ipynb**.
 
 
