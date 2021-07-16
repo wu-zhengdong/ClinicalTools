@@ -1,10 +1,24 @@
 # Research on Interpretability of Clinical Medicine Based on Machine Learning Predictive Model (基于机器学习预测模型的临床医学可解释性研究)
 
+
+# Overall
+
+
+
+# Install and Tutorial
+
+1. Anaconda2 (https://www.anaconda.com/distribution/) or Minoconda2 (https://conda.io/miniconda.html).
 ```
+conda create -n clinical python==3.7 -y
+conda activate clinical
+conda install jupyter notebook -y
 pip install requirements.txt
 ```
+2. Please download the Chromedriver from https://chromedriver.chromium.org/, making sure to match the Chrome version.
 
-**Please see the "Tutorial (WorkFlow).ipynb".**
+3. Considering your reading experience, please install the catalog before reading.(https://zhuanlan.zhihu.com/p/24029578)
+
+4. **Tutorial: Please see the "Tutorial (WorkFlow).ipynb".**
 
 # Reference
 
@@ -32,10 +46,10 @@ The experimental results of the following papers can be implemented using Clinic
 - SHAP
   - SHAP.py
   - selenium_png.py
-  - chromedriver: need to download by yourself: https://chromedriver.chromium.org/, and must match the Chrome Version.
+  - chromedriver (need to download by yourself)
 - utils
   - colors.py
-  - load.py (load large cvs file)
+  - load.py (if the cvs file too large)
 
 # Results Display
 
