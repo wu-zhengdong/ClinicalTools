@@ -1,6 +1,12 @@
 # Research on Interpretability of Clinical Medicine Based on Machine Learning Predictive Model (基于机器学习预测模型的临床医学可解释性研究)
 
-***Please see the "Tutorial (WorkFlow).ipynb".***
+# Tutorial
+
+```
+pip install requirements.txt
+```
+
+**Please see the "Tutorial (WorkFlow).ipynb".**
 
 # Reference
 
@@ -36,11 +42,11 @@ The experimental results of the following papers can be implemented using Clinic
 # Results Display
 
 ## ROC
-![summary_dot](./Example_pics/roc.png)
+![roc](./Example_pics/roc.png)
 
 ## Confusion matrix
 
-![summary_dot](./Example_pics/Confusion_matrix.png)
+![confusion_matrix](./Example_pics/Confusion_matrix.png)
 
 ## SHAP 
 
@@ -51,14 +57,14 @@ The experimental results of the following papers can be implemented using Clinic
 
 ### dependence plot
 
-![summary_dot](./Example_pics/Age.png)
-![summary_bar](./Example_pics/Admission.png)
+![age](./Example_pics/Age.png)
+![admission](./Example_pics/Admission.png)
 
 ### force plot
 
-![summary_dot](./Example_pics/force_plot_patients_0.png)
-![summary_bar](./Example_pics/force_plot_patients_2.png)
+![force_plot_0](./Example_pics/force_plot_patients_0.png)
+![force_plot_2](./Example_pics/force_plot_patients_2.png)
 
 ### decision plot
 
-![summary_dot](./Example_pics/patient_65.png)
+![decision_plot_65](./Example_pics/patient_65.png)
