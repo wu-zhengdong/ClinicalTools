@@ -39,6 +39,8 @@ The experimental results of the following papers can be implemented using Clinic
 
 [5] Tseng, P. Y., Chen, Y. T., Wang, C. H., Chiu, K. M., Peng, Y. S., Hsu, S. P., ... & Lee, O. K. S. (2020). Prediction of the development of acute kidney injury following cardiac surgery by machine learning. Critical Care, 24(1), 1-13.
 
+# Cite
+
 If you find this tool useful, please cite our work using the following reference:
 ```
 @article{zhang2021explainable,
