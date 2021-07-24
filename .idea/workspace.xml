@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a9f150-5ed6-480c-b487-533fd088de9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClinicalTools/preprocessing/imputation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClinicalTools/preprocessing/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,14 +99,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="260">
-                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <first_editor relative-caret-position="480">
+                <caret line="24" selection-start-line="24" selection-end-line="24" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClinicalTools/metrics/evaluate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="47" column="51" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>csfont</find>
       <find>compared_vars</find>
       <find>lianxu_vars</find>
       <find>train_fenbu</find>
@@ -164,6 +163,7 @@
       <find>LGB</find>
       <find>MLP</find>
       <find>chromedriver</find>
+      <find>percentile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -247,6 +247,18 @@
               <item name="ClinicalTools" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClinicalTools" type="462c0819:PsiDirectoryNode" />
               <item name="ClinicalTools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClinicalTools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClinicalTools" type="462c0819:PsiDirectoryNode" />
+              <item name="ClinicalTools" type="462c0819:PsiDirectoryNode" />
+              <item name="metrics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClinicalTools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClinicalTools" type="462c0819:PsiDirectoryNode" />
+              <item name="ClinicalTools" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClinicalTools" type="b2602c69:ProjectViewProjectNode" />
@@ -520,16 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClinicalTools/metrics/evaluate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1880">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tutorial (WorkFlow).ipynb" />
     <entry file="file://$PROJECT_DIR$/ClinicalTools/setup.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -635,10 +637,20 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="260">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <first_editor relative-caret-position="480">
+            <caret line="24" selection-start-line="24" selection-end-line="24" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClinicalTools/metrics/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

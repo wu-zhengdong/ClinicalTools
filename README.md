@@ -7,7 +7,7 @@ which are designed to cover the entire clinical medical research process, includ
 testing, standardization, missing value filling, feature selection, machine learning grid search, ROC, calibration curve, 
 confusion matrix, SHAP interpretability, etc. The aim is to help doctors or researchers to understand how machine 
 learning can be applied to clinical research. Papers in those fields can be found in the **Reference**.
- **Research Display** displays a portion of the results. A detailed explanation can be found on **Tutorial.ipynb**.
+ **Research Display** displays a portion of the results. Please refer to the tutorial for more details: https://github.com/ugggddd/ClinicalTools/blob/master/Tutorial.ipynb.
 
 
 # Install and Tutorial
