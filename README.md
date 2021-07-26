@@ -5,7 +5,7 @@
 Here are clinical medical machine learning interpretability research tools, ClinicalTools, which are designed to cover the entire clinical medical research process, including hypothesis testing, standardization, missing value filling, feature selection, machine learning grid search, ROC, calibration curve, confusion matrix, SHAP interpretability, etc. The aim is to help doctors or researchers to understand how machine learning can be applied to clinical research. Please refer to the tutorial for more details: https://github.com/ugggddd/ClinicalTools/blob/master/Tutorial.ipynb.
 
 
-# Install
+# Usage
 
 1. Please download Anaconda from https://www.anaconda.com/products/individual.
 ```
@@ -35,7 +35,8 @@ The experimental results of the following papers can be implemented using Clinic
 
 # Cite
 
-If you find this tool useful, please cite our work using the following reference:
+If you find this idea useful, please cite our work using the following reference:
+
 ```
 @article{zhang2021explainable,
   title={An explainable supervised machine learning predictor of acute kidney injury after adult deceased donor liver transplantation},
