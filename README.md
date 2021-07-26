@@ -1,16 +1,11 @@
-# Interpreting clinical medicine base on machine learning models (基于机器学习的临床医学可解释性研究)
+# Interpreting Clinical Medicine Base on Machine Learning System
 
 
 # Overview
-Here are clinical medical machine learning interpretability research tools, ClinicalTools, 
-which are designed to cover the entire clinical medical research process, including hypothesis 
-testing, standardization, missing value filling, feature selection, machine learning grid search, ROC, calibration curve, 
-confusion matrix, SHAP interpretability, etc. The aim is to help doctors or researchers to understand how machine 
-learning can be applied to clinical research. Papers in those fields can be found in the **Reference**.
- **Research Display** displays a portion of the results. Please refer to the tutorial for more details: https://github.com/ugggddd/ClinicalTools/blob/master/Tutorial.ipynb.
+Here are clinical medical machine learning interpretability research tools, ClinicalTools, which are designed to cover the entire clinical medical research process, including hypothesis testing, standardization, missing value filling, feature selection, machine learning grid search, ROC, calibration curve, confusion matrix, SHAP interpretability, etc. The aim is to help doctors or researchers to understand how machine learning can be applied to clinical research. Please refer to the tutorial for more details: https://github.com/ugggddd/ClinicalTools/blob/master/Tutorial.ipynb.
 
 
-# Install and Tutorial
+# Install
 
 1. Please download Anaconda from https://www.anaconda.com/products/individual.
 ```
@@ -23,7 +18,6 @@ pip install requirements.txt
 
 3. Considering your reading experience, please install the catalog before reading.(https://zhuanlan.zhihu.com/p/24029578)
 
-4. **Tutorial: Please see the "Tutorial.ipynb".**
 
 # Reference
 
