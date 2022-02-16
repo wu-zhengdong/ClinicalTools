@@ -2,8 +2,37 @@
 
 
 # Overview
-Here are clinical medical machine learning interpretability research tools, ClinicalTools, which are designed to cover the entire clinical medical research process, including hypothesis testing, standardization, missing value filling, feature selection, machine learning grid search, ROC, calibration curve, confusion matrix, SHAP interpretability, etc. The aim is to help doctors or researchers to understand how machine learning can be applied to clinical research. Please refer to the tutorial for more details: https://github.com/ugggddd/ClinicalTools/blob/master/Tutorial.ipynb.
+Here is a Clinical Medical Research Framework, ***ClinicalTools***, which covers all the processes in Clinical Medical Research (CMR) including a lot of modules for **Statistic, Prediction and Causal Inference**, such as hypothesis testing, standardization, missing value filling, feature selection, machine learning grid search, ROC, calibration curve, confusion matrix, SHAP interpretability, etc. The purpose of this framework is to help doctors and clinical researchers implement interdisciplinary clinical AI research. Please refer to the tutorial for more details: https://github.com/ugggddd/ClinicalTools/blob/master/Tutorial.ipynb.
 
+# Results Display
+
+## SHAP 
+
+### summary plot
+![summary_dot](./Example_pics/summary_dot.png)
+![summary_bar](./Example_pics/summary_bar.png)
+
+### dependence plot
+
+![age](./Example_pics/Age.png)
+![admission](./Example_pics/Admission.png)
+
+### force plot
+
+![force_plot_0](./Example_pics/force_plot_patients_0.png)
+![force_plot_2](./Example_pics/force_plot_patients_2.png)
+
+### decision plot
+
+![decision_plot_65](./Example_pics/patient_39.png)
+
+## ROC
+
+![roc](./Example_pics/roc.png)
+
+## Confusion matrix
+
+![confusion_matrix](./Example_pics/Confusion_matrix.png)
 
 # Usage
 
@@ -63,33 +92,3 @@ If you find this idea useful, please cite our work using the following reference
 - utils
   - colors.py
   - load.py (if the cvs file too large)
-
-# Results Display
-
-## ROC
-![roc](./Example_pics/roc.png)
-
-## Confusion matrix
-
-![confusion_matrix](./Example_pics/Confusion_matrix.png)
-
-## SHAP 
-
-### summary plot
-![summary_dot](./Example_pics/summary_dot.png)
-![summary_bar](./Example_pics/summary_bar.png)
-
-
-### dependence plot
-
-![age](./Example_pics/Age.png)
-![admission](./Example_pics/Admission.png)
-
-### force plot
-
-![force_plot_0](./Example_pics/force_plot_patients_0.png)
-![force_plot_2](./Example_pics/force_plot_patients_2.png)
-
-### decision plot
-
-![decision_plot_65](./Example_pics/patient_39.png)
