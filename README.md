@@ -1,4 +1,4 @@
-# Interpreting Clinical Medicine Base on Machine Learning System
+# Clinical-AI Research Framework
 
 
 # Overview
