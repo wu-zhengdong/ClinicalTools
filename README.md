@@ -2,7 +2,7 @@
 
 
 # Overview
-This is a Clinical Medical Research Framework (**ClinicalTools**) covering all the processes/modules in Clinical Medical Research (CMR) (e.g., **Statistic, Prediction and Causal Inference**), such as hypothesis testing, standardization, missing value filling, feature selection, machine learning grid search, ROC, calibration curve, confusion matrix, SHAP interpretability, etc. The purpose of this framework is to help doctors and clinical researchers implement clinical AI interdisciplinary research. Please refer to the tutorial for details: https://github.com/ugggddd/ClinicalTools/blob/master/Tutorial.ipynb.
+Here is a Clinical Medical Research Framework (**ClinicalTools**) including some preprocessing modules in Clinical Medical Research (CMR) (e.g., **Statistic, Prediction and Causal Inference**), such as hypothesis testing, standardization, missing value filling, feature selection, machine learning grid search, ROC, calibration curve, confusion matrix, SHAP interpretability, etc. The framework aim to help doctors and clinical researchers implement clinical AI interdisciplinary research. Please refer to the tutorial for details: https://github.com/ugggddd/ClinicalTools/blob/master/Tutorial.ipynb.
 
 # Results Display
 
